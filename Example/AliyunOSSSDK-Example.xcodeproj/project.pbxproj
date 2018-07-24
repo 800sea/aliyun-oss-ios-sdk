@@ -28,16 +28,22 @@
 		D829F3AE1FDE719000A8C2DC /* OSSBucketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D829F3AD1FDE719000A8C2DC /* OSSBucketTests.m */; };
 		D829F3B01FDE71C500A8C2DC /* OSSObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D829F3AF1FDE71C500A8C2DC /* OSSObjectTests.m */; };
 		D829F3F61FE23DA700A8C2DC /* OSSCrc64Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D829F3F51FE23DA700A8C2DC /* OSSCrc64Tests.m */; };
+		D8399B4E20F38D0E0019003E /* OSSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399B4D20F38D0E0019003E /* OSSTableViewController.m */; };
+		D8399B5120F3AA320019003E /* OSSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399B5020F3AA320019003E /* OSSTableViewCell.m */; };
+		D8399B5D20F3B7DD0019003E /* BucketView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399B5C20F3B7DD0019003E /* BucketView.m */; };
+		D8399B6020F3B7EA0019003E /* ObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399B5F20F3B7EA0019003E /* ObjectView.m */; };
+		D8399B6320F3B8030019003E /* ImageOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399B6220F3B8030019003E /* ImageOperationView.m */; };
+		D8399B6620F3B8520019003E /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399B6520F3B8520019003E /* CommonViewController.m */; };
+		D8399B6920F3BC760019003E /* BucketViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399B6820F3BC760019003E /* BucketViewModel.m */; };
+		D8399B6C20F3BC860019003E /* ObjectViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399B6B20F3BC860019003E /* ObjectViewModel.m */; };
+		D8399B6F20F3BC940019003E /* ImageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399B6E20F3BC940019003E /* ImageViewModel.m */; };
 		D83CEFF8201F1CEE00F917E1 /* TriggerCallbackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CEFF7201F1CEE00F917E1 /* TriggerCallbackTests.m */; };
 		D83D58581FC681F90022761B /* OSSModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83D58521FC680850022761B /* OSSModelTests.m */; };
 		D83D58591FC682010022761B /* OSSCredentialProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83D58511FC680840022761B /* OSSCredentialProviderTests.m */; };
 		D83D585A1FC682070022761B /* OSSRangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83D58501FC680840022761B /* OSSRangeTests.m */; };
 		D83D585B1FC6820B0022761B /* OSSSignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83D58531FC680850022761B /* OSSSignTests.m */; };
 		D83D58CD1FC6B3100022761B /* OSSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D83D58BE1FC6B3100022761B /* OSSConstants.m */; };
-		D83D58CE1FC6B3100022761B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83D58BF1FC6B3100022761B /* ViewController.m */; };
 		D83D58D11FC6B3100022761B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D83D58C51FC6B3100022761B /* AppDelegate.m */; };
-		D83D58D21FC6B3100022761B /* ImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = D83D58C81FC6B3100022761B /* ImageService.m */; };
-		D83D58D31FC6B3100022761B /* OssService.m in Sources */ = {isa = PBXBuildFile; fileRef = D83D58C91FC6B3100022761B /* OssService.m */; };
 		D83D58D81FC6B4350022761B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87182F61FC55F36000DD9EC /* SystemConfiguration.framework */; };
 		D83D58D91FC6B43E0022761B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87182FA1FC560D6000DD9EC /* CoreTelephony.framework */; };
 		D83D58DA1FC6B4450022761B /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D87182F81FC55F46000DD9EC /* libresolv.tbd */; };
@@ -65,6 +71,7 @@
 		D87183D21FC5820B000DD9EC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87182FA1FC560D6000DD9EC /* CoreTelephony.framework */; };
 		D87A0E022057F54B006D2F48 /* ConcurrencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A0E012057F54B006D2F48 /* ConcurrencyTests.m */; };
 		D8C41A641FCC002C0091699B /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D58F91FC700C70022761B /* test.xml */; };
+		D8DC21DC20F4503D0085CF0D /* OSSTransferUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DC21DB20F4503D0085CF0D /* OSSTransferUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +134,24 @@
 		D829F3AF1FDE71C500A8C2DC /* OSSObjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSObjectTests.m; sourceTree = "<group>"; };
 		D829F3B11FDE72A200A8C2DC /* OSSTestMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSTestMacros.h; sourceTree = "<group>"; };
 		D829F3F51FE23DA700A8C2DC /* OSSCrc64Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSCrc64Tests.m; sourceTree = "<group>"; };
+		D8399B4C20F38D0E0019003E /* OSSTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSTableViewController.h; sourceTree = "<group>"; };
+		D8399B4D20F38D0E0019003E /* OSSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSTableViewController.m; sourceTree = "<group>"; };
+		D8399B4F20F3AA320019003E /* OSSTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSTableViewCell.h; sourceTree = "<group>"; };
+		D8399B5020F3AA320019003E /* OSSTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSTableViewCell.m; sourceTree = "<group>"; };
+		D8399B5B20F3B7DD0019003E /* BucketView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BucketView.h; sourceTree = "<group>"; };
+		D8399B5C20F3B7DD0019003E /* BucketView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BucketView.m; sourceTree = "<group>"; };
+		D8399B5E20F3B7EA0019003E /* ObjectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectView.h; sourceTree = "<group>"; };
+		D8399B5F20F3B7EA0019003E /* ObjectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectView.m; sourceTree = "<group>"; };
+		D8399B6120F3B8030019003E /* ImageOperationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageOperationView.h; sourceTree = "<group>"; };
+		D8399B6220F3B8030019003E /* ImageOperationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageOperationView.m; sourceTree = "<group>"; };
+		D8399B6420F3B8520019003E /* CommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		D8399B6520F3B8520019003E /* CommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		D8399B6720F3BC760019003E /* BucketViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BucketViewModel.h; sourceTree = "<group>"; };
+		D8399B6820F3BC760019003E /* BucketViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BucketViewModel.m; sourceTree = "<group>"; };
+		D8399B6A20F3BC860019003E /* ObjectViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectViewModel.h; sourceTree = "<group>"; };
+		D8399B6B20F3BC860019003E /* ObjectViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectViewModel.m; sourceTree = "<group>"; };
+		D8399B6D20F3BC940019003E /* ImageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewModel.h; sourceTree = "<group>"; };
+		D8399B6E20F3BC940019003E /* ImageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewModel.m; sourceTree = "<group>"; };
 		D83CEFF7201F1CEE00F917E1 /* TriggerCallbackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerCallbackTests.m; sourceTree = "<group>"; };
 		D83D58501FC680840022761B /* OSSRangeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSRangeTests.m; sourceTree = "<group>"; };
 		D83D58511FC680840022761B /* OSSCredentialProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCredentialProviderTests.m; sourceTree = "<group>"; };
@@ -135,14 +160,8 @@
 		D83D58A61FC6B2850022761B /* AliyunOSSSDK-iOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AliyunOSSSDK-iOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83D58BD1FC6B3100022761B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D83D58BE1FC6B3100022761B /* OSSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSConstants.m; sourceTree = "<group>"; };
-		D83D58BF1FC6B3100022761B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D83D58C51FC6B3100022761B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D83D58C61FC6B3100022761B /* OSSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSConstants.h; sourceTree = "<group>"; };
-		D83D58C81FC6B3100022761B /* ImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageService.m; sourceTree = "<group>"; };
-		D83D58C91FC6B3100022761B /* OssService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OssService.m; sourceTree = "<group>"; };
-		D83D58CA1FC6B3100022761B /* ImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageService.h; sourceTree = "<group>"; };
-		D83D58CB1FC6B3100022761B /* OssService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OssService.h; sourceTree = "<group>"; };
-		D83D58CC1FC6B3100022761B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D83D58DD1FC6B61F0022761B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83D58DE1FC6B61F0022761B /* AliyunOSSSDK-iOS-Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AliyunOSSSDK-iOS-Example-Prefix.pch"; sourceTree = "<group>"; };
 		D83D58DF1FC6B61F0022761B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -170,6 +189,8 @@
 		D87183C01FC572C6000DD9EC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87183C11FC572C6000DD9EC /* OSSReachabilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSReachabilityTests.m; sourceTree = "<group>"; };
 		D87A0E012057F54B006D2F48 /* ConcurrencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcurrencyTests.m; sourceTree = "<group>"; };
+		D8DC21DA20F4503D0085CF0D /* OSSTransferUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSTransferUtil.h; sourceTree = "<group>"; };
+		D8DC21DB20F4503D0085CF0D /* OSSTransferUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSTransferUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,22 +263,28 @@
 				D83D58C51FC6B3100022761B /* AppDelegate.m */,
 				D83D58C61FC6B3100022761B /* OSSConstants.h */,
 				D83D58BE1FC6B3100022761B /* OSSConstants.m */,
-				D83D58CC1FC6B3100022761B /* ViewController.h */,
-				D83D58BF1FC6B3100022761B /* ViewController.m */,
-				D83D58C71FC6B3100022761B /* Services */,
+				D8399B4C20F38D0E0019003E /* OSSTableViewController.h */,
+				D8399B4D20F38D0E0019003E /* OSSTableViewController.m */,
+				D8399B4F20F3AA320019003E /* OSSTableViewCell.h */,
+				D8399B5020F3AA320019003E /* OSSTableViewCell.m */,
+				D8399B5B20F3B7DD0019003E /* BucketView.h */,
+				D8399B5C20F3B7DD0019003E /* BucketView.m */,
+				D8399B5E20F3B7EA0019003E /* ObjectView.h */,
+				D8399B5F20F3B7EA0019003E /* ObjectView.m */,
+				D8399B6120F3B8030019003E /* ImageOperationView.h */,
+				D8399B6220F3B8030019003E /* ImageOperationView.m */,
+				D8399B6420F3B8520019003E /* CommonViewController.h */,
+				D8399B6520F3B8520019003E /* CommonViewController.m */,
+				D8399B6720F3BC760019003E /* BucketViewModel.h */,
+				D8399B6820F3BC760019003E /* BucketViewModel.m */,
+				D8399B6A20F3BC860019003E /* ObjectViewModel.h */,
+				D8399B6B20F3BC860019003E /* ObjectViewModel.m */,
+				D8399B6D20F3BC940019003E /* ImageViewModel.h */,
+				D8399B6E20F3BC940019003E /* ImageViewModel.m */,
+				D8DC21DA20F4503D0085CF0D /* OSSTransferUtil.h */,
+				D8DC21DB20F4503D0085CF0D /* OSSTransferUtil.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		D83D58C71FC6B3100022761B /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				D83D58C81FC6B3100022761B /* ImageService.m */,
-				D83D58C91FC6B3100022761B /* OssService.m */,
-				D83D58CA1FC6B3100022761B /* ImageService.h */,
-				D83D58CB1FC6B3100022761B /* OssService.h */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		D83D58DC1FC6B61F0022761B /* Supporting Files */ = {
@@ -524,12 +551,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83D58D31FC6B3100022761B /* OssService.m in Sources */,
+				D8399B6620F3B8520019003E /* CommonViewController.m in Sources */,
+				D8399B4E20F38D0E0019003E /* OSSTableViewController.m in Sources */,
+				D8399B6920F3BC760019003E /* BucketViewModel.m in Sources */,
+				D8DC21DC20F4503D0085CF0D /* OSSTransferUtil.m in Sources */,
 				D83D58CD1FC6B3100022761B /* OSSConstants.m in Sources */,
-				D83D58D21FC6B3100022761B /* ImageService.m in Sources */,
+				D8399B6C20F3BC860019003E /* ObjectViewModel.m in Sources */,
+				D8399B5D20F3B7DD0019003E /* BucketView.m in Sources */,
 				D83D58D11FC6B3100022761B /* AppDelegate.m in Sources */,
+				D8399B6020F3B7EA0019003E /* ObjectView.m in Sources */,
+				D8399B5120F3AA320019003E /* OSSTableViewCell.m in Sources */,
 				D83D58E21FC6B61F0022761B /* main.m in Sources */,
-				D83D58CE1FC6B3100022761B /* ViewController.m in Sources */,
+				D8399B6320F3B8030019003E /* ImageOperationView.m in Sources */,
+				D8399B6F20F3BC940019003E /* ImageViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,15 +674,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6ND67KCL32;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AliyunOSSSDK-iOS-Example/Supporting Files/AliyunOSSSDK-iOS-Example-Prefix.pch";
 				INFOPLIST_FILE = "AliyunOSSSDK-iOS-Example/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aliyun.oss.AliyunOSSSDK-iOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aliyun.oss.objective-c.sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -659,15 +694,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6ND67KCL32;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AliyunOSSSDK-iOS-Example/Supporting Files/AliyunOSSSDK-iOS-Example-Prefix.pch";
 				INFOPLIST_FILE = "AliyunOSSSDK-iOS-Example/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aliyun.oss.AliyunOSSSDK-iOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aliyun.oss.objective-c.sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
